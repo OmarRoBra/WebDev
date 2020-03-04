@@ -31,7 +31,7 @@ const carrousel= new Vue({
             this.num+=this.direction;
             if (this.num > this.image.length-1) this.num = 0;
             if (this.num < 0) this.num = this.image.length-1;
-            document.getElementById("imagen").src=" img/" +this.image[this.num] + ".jpg";  
+            document.getElementById("imagen").src=" WebDev/img/" +this.image[this.num] + ".jpg";  
         },
         prevImage(){
             this.direction = -1;
